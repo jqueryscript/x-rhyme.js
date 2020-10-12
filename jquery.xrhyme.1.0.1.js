@@ -79,8 +79,8 @@
 
             window.onresize = fn.resetContent;
             document.onkeydown = fn.keyScroll;
-            if($.browser.mozilla) {
-                document.addEventListener('DOMMouseScroll', fn.mouseWheel, false);
+            if(navigator.userAgent.indexOf("Firefox") != -1) {
+                document.addEventListener('DOMMouseScroll', fn.mouseWheel, {passive:false});
             }else{
                 document.onmousewheel = fn.mouseWheel;
             }
