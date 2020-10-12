@@ -1,5 +1,5 @@
 X-Rhyme.js v 1.0.1
 ================
-X-Rhyme.js is a jQuery plugin for horizontal websites :>
+A lightweight jQuery plugin to create a horizontal content slider where users can slide through slides with mouse wheel, arrow keys, or by clicking anchors & pagination controls.
 
 See demos in the documents
